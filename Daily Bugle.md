@@ -23,7 +23,7 @@
 
 
 
-
+Can also get the password hash from configuration.php:
 
 ![image](https://github.com/user-attachments/assets/310f5fea-454c-456c-a4d5-fa8381275230)
 ![image](https://github.com/user-attachments/assets/7edb55a9-dcce-4545-be0d-6034bb3a6da2)
