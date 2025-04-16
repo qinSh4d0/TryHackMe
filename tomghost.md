@@ -10,6 +10,6 @@
 ![image](https://github.com/user-attachments/assets/ec8f8847-d582-487f-9918-c90cb8038958)
 
 
-Transfer .pgp and private key files to Kali
-gpg2john priviate key to hash, crack hash
-import private key then decrypt
+Transfer .pgp and private key files to Kali. 
+gpg2john convert priviate key to hash, crack hash. 
+Import private key then decrypt
