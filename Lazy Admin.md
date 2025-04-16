@@ -4,7 +4,6 @@
 ![image](https://github.com/user-attachments/assets/e4d81716-3b6d-44e6-8ce8-c08af4e805a8)
 ![image](https://github.com/user-attachments/assets/d5c0569e-ba72-4ad7-b985-5b7fda2d3423)
 ![image](https://github.com/user-attachments/assets/df18f5f7-1992-4f28-a202-ef79ad9c8efb)
-![image](https://github.com/user-attachments/assets/83cbb37e-fbe1-4c18-be4e-09e00809e3a7)
 ![image](https://github.com/user-attachments/assets/8a1d024a-c000-420f-a046-fa3a1cf1faea)
 ![image](https://github.com/user-attachments/assets/8861018f-1b45-4c31-8e4d-d77f0cccd74d)
 ![image](https://github.com/user-attachments/assets/f98384fe-b7f5-4474-a4fc-caab351d187d)
