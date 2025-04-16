@@ -8,6 +8,7 @@
 ![image](https://github.com/user-attachments/assets/50291ac3-9666-4b7c-b353-8836e69580e0)
 ![image](https://github.com/user-attachments/assets/a28c744a-55cc-4330-82b8-22cd1d66bc22)
 ![image](https://github.com/user-attachments/assets/ec8f8847-d582-487f-9918-c90cb8038958)
+![image](https://github.com/user-attachments/assets/e8ce16fa-924b-42a1-b23e-0424a66f8f7d)
 
 
 Transfer .pgp and private key files to Kali. 
