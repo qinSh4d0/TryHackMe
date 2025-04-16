@@ -11,5 +11,7 @@
 
 
 Transfer .pgp and private key files to Kali. 
+
 gpg2john convert priviate key to hash, crack hash. 
+
 Import private key then decrypt
