@@ -24,3 +24,4 @@ Newline \n URL-encoded %0A  get database name
 Another way to read database info:
 transfer the db to Kali and sqlite3
 ![image](https://github.com/user-attachments/assets/4e5532e1-0dd9-4b9a-94f8-60042766a2ec)
+![image](https://github.com/user-attachments/assets/7f515f35-2b19-416d-8966-bc4a22b75b02)
