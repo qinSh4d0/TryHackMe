@@ -19,5 +19,7 @@
 ![image](https://github.com/user-attachments/assets/f1136daf-c800-4449-9413-66690bc7b5b9)
 ![image](https://github.com/user-attachments/assets/16769dc5-6831-43ac-9dc7-36a3c8184b3c)
 ![image](https://github.com/user-attachments/assets/74e525d7-d149-467b-8e5c-f3cc75e94c15)
+Misconfiguration - id, user not in "sudo" group, but "sudo -l" shows info
 ![image](https://github.com/user-attachments/assets/b24d5aa9-37e2-4a0b-921c-72680d0d34b6)
+User has write permission to /home/itguy/backup.pl
 ![image](https://github.com/user-attachments/assets/07338e73-94ae-4efd-a56c-5d8d0976988d)
