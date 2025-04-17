@@ -55,10 +55,29 @@ Aubreanna in adm group, read /var/log, no password found.
 Check home directory jenkins.txt again. SSH local port forwarding.
 
 ![image](https://github.com/user-attachments/assets/1a53ddb8-0078-44ef-9da4-5935835082a4)
-![image](https://github.com/user-attachments/assets/1c5de0c7-e834-46dd-b076-a8d29839615d)
+![image](https://github.com/user-attachments/assets/4fde5818-6a85-4e5c-a284-b08616000f72)
 ![image](https://github.com/user-attachments/assets/d8a75d36-a913-4f5d-8c8f-fdb049fd4df8)
 ![image](https://github.com/user-attachments/assets/b0aaa340-b56b-44eb-9447-8020f71d560e)
 ![image](https://github.com/user-attachments/assets/6471752b-1616-4f96-84f1-e78c534ded9f)
+
+Take a break. IP will be different when come back & restart machine. 
+
+SSH local port forward to 8000. User admin. ZAP to brute force passwd --> rockyou.txt
+
+Get Jenkins login passwd. 
+
+![image](https://github.com/user-attachments/assets/f4336ff1-3609-4446-9ea6-dcfe0c9c83bb)
+![image](https://github.com/user-attachments/assets/cdd24acd-8735-4568-a54a-2b0bfba8a5b0)
+![image](https://github.com/user-attachments/assets/d65f53d0-d12e-4e1c-9a44-a339fed234df)
+
+Jenkins -> Manage Jenkins -> Script Console -> Groovy shell -> Run -> Get reverse shell
+
+![image](https://github.com/user-attachments/assets/d0102154-5e31-4980-858b-9472d5077727)
+![image](https://github.com/user-attachments/assets/bb8c7498-e48c-4d4e-9e28-8fedeb9bf6c4)
+![image](https://github.com/user-attachments/assets/2a6778da-653f-4e33-8ca2-c891014a2fda)
+![image](https://github.com/user-attachments/assets/310d23c5-d44e-4047-b3e6-31a9258e7b9f)
+![image](https://github.com/user-attachments/assets/9f80dd3f-f5fe-4318-97bf-728efd6321b0)
+
 
 
 
