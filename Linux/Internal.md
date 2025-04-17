@@ -60,7 +60,7 @@ Check home directory jenkins.txt again. SSH local port forwarding.
 ![image](https://github.com/user-attachments/assets/b0aaa340-b56b-44eb-9447-8020f71d560e)
 ![image](https://github.com/user-attachments/assets/6471752b-1616-4f96-84f1-e78c534ded9f)
 
-Take a break. Restart machine. New-assigned IP.
+Take a break. Restart machine. Newly assigned IP.
 
 SSH local port forward to 8000. User admin. ZAP to brute force passwd --> rockyou.txt
 
