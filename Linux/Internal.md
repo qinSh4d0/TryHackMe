@@ -43,12 +43,12 @@ Brute force password against user admin. Login, get reverse shell.
 ![image](https://github.com/user-attachments/assets/24558e2f-dfb0-40f2-870b-ee992d1fb879)
 
 
-Linpeas not found much useful info. Back to / and look around. Find credential.
+Linpeas not find much useful info. Back to / and look around. Find credential.
 
 ![image](https://github.com/user-attachments/assets/3f1f30dc-8506-4c54-8dfd-fd721d583aff)
 ![image](https://github.com/user-attachments/assets/a42ab000-e796-4a1c-a02f-57f7b7abab9e)
 
-Aubreanna in adm group, read /var/log, no password found.
+Aubreanna in adm group, read /var/log, no password.
 
 ![image](https://github.com/user-attachments/assets/58945426-e8ad-4d83-9622-49f486b735ac)
 
