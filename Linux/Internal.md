@@ -60,7 +60,7 @@ Check home directory jenkins.txt again. SSH local port forwarding.
 ![image](https://github.com/user-attachments/assets/b0aaa340-b56b-44eb-9447-8020f71d560e)
 ![image](https://github.com/user-attachments/assets/6471752b-1616-4f96-84f1-e78c534ded9f)
 
-Take a break. IP will be different when come back & restart machine. 
+Take a break. Restart machine. New-assigned IP.
 
 SSH local port forward to 8000. User admin. ZAP to brute force passwd --> rockyou.txt
 
@@ -69,7 +69,7 @@ Get Jenkins login passwd.
 ![image](https://github.com/user-attachments/assets/cdd24acd-8735-4568-a54a-2b0bfba8a5b0)
 ![image](https://github.com/user-attachments/assets/d65f53d0-d12e-4e1c-9a44-a339fed234df)
 
-Jenkins -> Manage Jenkins -> Script Console -> Groovy shell -> Run -> Get reverse shell
+Jenkins -> Manage Jenkins -> Script Console -> Groovy code -> Run -> Get reverse shell
 
 ![image](https://github.com/user-attachments/assets/d0102154-5e31-4980-858b-9472d5077727)
 ![image](https://github.com/user-attachments/assets/bb8c7498-e48c-4d4e-9e28-8fedeb9bf6c4)
