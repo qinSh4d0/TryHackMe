@@ -66,7 +66,6 @@ SSH local port forward to 8000. User admin. ZAP to brute force passwd --> rockyo
 
 Get Jenkins login passwd. 
 
-![image](https://github.com/user-attachments/assets/f4336ff1-3609-4446-9ea6-dcfe0c9c83bb)
 ![image](https://github.com/user-attachments/assets/cdd24acd-8735-4568-a54a-2b0bfba8a5b0)
 ![image](https://github.com/user-attachments/assets/d65f53d0-d12e-4e1c-9a44-a339fed234df)
 
