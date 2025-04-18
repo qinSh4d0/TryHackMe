@@ -6,6 +6,12 @@
 ![image](https://github.com/user-attachments/assets/76e5ac13-e722-4aad-97e5-3cb0ca1c49d3)
 ![image](https://github.com/user-attachments/assets/099f433d-305b-4f8f-974c-03377d467679)
 
+Get a reverse shell -> uplodate theme 2019 404.php -> curl http://10.10.90.21/retro/wp-content/themes/twentynineteen/404.php
+
+![image](https://github.com/user-attachments/assets/86328a83-2a4f-4bdf-8a0f-254084032a28)
+![image](https://github.com/user-attachments/assets/ea6213dd-040d-4c70-b84e-5cb6ec505388)
+
+
 Take a break.
 
 
