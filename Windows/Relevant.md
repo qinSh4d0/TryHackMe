@@ -29,7 +29,7 @@ Continue.  Restart machine.   New IP.
 
 1. anonymous writing to share is allowed
 
-2. directory brute-forcing show result .aspx
+2. directory brute-forcing results show .aspx
 
 3. msfvenom generate .aspx payload and place in share
 
