@@ -25,7 +25,6 @@ Continue.  Restart machine.   New IP.
 ![image](https://github.com/user-attachments/assets/bcf8c104-97b6-4480-bd3b-cde3ff231f0e)
 ![image](https://github.com/user-attachments/assets/49342140-1ec9-478e-83a6-3e59fa83a28e)
 ![image](https://github.com/user-attachments/assets/de5e847e-84fb-4091-b86c-40efd2b0fc75)
-![image](https://github.com/user-attachments/assets/324d9347-7069-42d2-818d-66560f0cb329)
 ![image](https://github.com/user-attachments/assets/4d7f926e-5e2c-4776-a950-484a8b633840)
 
 1. anonymous writing to share is allowed
@@ -36,10 +35,10 @@ Continue.  Restart machine.   New IP.
 
 4. web browser visit payload to get reverse shell
 
-5.  user iis apppool --> SeImpersonatePrivilege Enabled
+5. user iis apppool --> SeImpersonatePrivilege Enabled
 
-6.  systeminfo --> x64-based PC
+6. systeminfo --> x64-based PC    (# if 32-bit, use SharpEfsPotato.exe)
 
-7.  upload PrintSpoofer64.exe to C:\inetpub\wwwroot\nt4wrksv  (share)
+7. upload PrintSpoofer64.exe to C:\inetpub\wwwroot\nt4wrksv  (share)
 
-8.  PrintSpoofer.exe -i -c cmd --> PrivEsc to SYSTEM
+8. PrintSpoofer.exe -i -c cmd --> PrivEsc to SYSTEM
