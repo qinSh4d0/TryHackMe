@@ -10,7 +10,7 @@ Manage Jenkins -> Script Console -> Groovy Reverse Shell -> Run
 ![image](https://github.com/user-attachments/assets/8ea3e0ce-f63e-43a3-8b33-fe1552b25f65)
 ![image](https://github.com/user-attachments/assets/6d8b8f9f-b8bd-4ae4-b79e-31c5a86890f8)
 
-SharpEfsPotato, PrintSpoofer64.exe, RoguePotato, etc. not work --> cannot PrivEsc to SYSTEM
+SharpEfsPotato, PrintSpoofer64.exe, RoguePotato, incognito.exe etc.--> cannot PrivEsc to SYSTEM
 
 ![image](https://github.com/user-attachments/assets/a59a788d-1db6-4cce-b015-c42a3e56c6ae)
 
