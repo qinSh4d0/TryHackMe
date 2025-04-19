@@ -18,6 +18,8 @@ get reverse shell
 
 upload Win32 mimikatz (systeminfo show x86-based PC) to machine & get Lab NTLM
 
-![image](https://github.com/user-attachments/assets/0dcda8f2-504b-4cf6-8687-df12e65b917d)
+![image](https://github.com/user-attachments/assets/ee048cb9-b0f9-4532-abcf-f5fd5f25608e)
+![image](https://github.com/user-attachments/assets/1d043d7b-81ca-46a3-9ebd-949995467b91)
+
 
 
