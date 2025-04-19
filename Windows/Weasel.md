@@ -19,3 +19,17 @@ Linux commands work on one shell and another shell Windows commands.
 Guess it is Windows Subsystem for Linux.
 
 Take a break.
+
+
+![image](https://github.com/user-attachments/assets/e0773985-e487-4719-a882-02fa673d6e15)
+
+
+1. sudo -l, current user can do -- (ALL) NOPASSWD: /home/dev-datasci/.local/bin/jupyter
+
+2. no jupyter under /.local/bin/ folder
+
+3. create jupyter, bash script, reverse shell, make executable, sudo run, get reverse shell
+
+4. reverse shell uname -a confirm WSL
+
+5. mount driver, access Administrator Desktop, get root.txt
