@@ -18,8 +18,25 @@
 ![image](https://github.com/user-attachments/assets/eb85bbe6-9714-4707-914b-c598732752d5)
 ![image](https://github.com/user-attachments/assets/db83806c-e71e-4c72-ac18-776d40817913)
 ![image](https://github.com/user-attachments/assets/9c3bf6e4-ccd7-4998-83ba-ba4bcc36270e)
+![image](https://github.com/user-attachments/assets/eb2c1f41-2cde-476c-a495-3f8b8d2e4bdc)
 ![image](https://github.com/user-attachments/assets/dd008c37-001f-4e0d-a2bc-7e69a0779516)
 ![image](https://github.com/user-attachments/assets/b30ab679-f1a3-4945-a3b5-4ee5f254b69f)
 ![image](https://github.com/user-attachments/assets/8cf22fb6-4377-48e1-96fa-ee1a05bd2613)
 ![image](https://github.com/user-attachments/assets/c4937ba1-9e9f-4cfc-8cb9-eb997ee91e34)
 ![image](https://github.com/user-attachments/assets/b0ee5aaf-05fa-4162-9cb3-04c6e69bb80f)
+
+1. hydra brute force password
+
+2. upload file to post as per 46353.cs (rename to PostView.ascx)
+
+3. visit URL (http://IP/?theme=../../App_Data/files) to trigger payload, get reverse shell, user iis apppool
+
+4. upload winPEAS and another shell.exe to global writable directory C:\Windows\Temp
+
+5. revese shell, run winPEAS, see:
+   
+   WindowsScheduler(Splinterware Software Solutions - System Scheduler Service)[C:\PROGRA~2\SYSTEM~1\WService.exe] - Auto - Running
+   File Permissions: Everyone [WriteData/CreateFiles]
+   Possible DLL Hijacking in binary folder: C:\Program Files (x86)\SystemScheduler (Everyone [WriteData/CreateFiles])
+
+6. Exploit-DB 45072 --> C:\Program Files (x86)\SystemScheduler --> tasklist a couple times until Message.exe appears --> rename original & replace with shell --> open listener and wait --> PE to Admin
