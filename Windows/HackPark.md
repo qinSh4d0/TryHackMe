@@ -35,8 +35,9 @@
 
 5. revese shell, run winPEAS, see:
    
-   WindowsScheduler(Splinterware Software Solutions - System Scheduler Service)[C:\PROGRA~2\SYSTEM~1\WService.exe] - Auto - Running
+   WindowsScheduler(Splinterware Software Solutions - System Scheduler Service)
+   [C:\PROGRA~2\SYSTEM~1\WService.exe] - Auto - Running
    File Permissions: Everyone [WriteData/CreateFiles]
    Possible DLL Hijacking in binary folder: C:\Program Files (x86)\SystemScheduler (Everyone [WriteData/CreateFiles])
 
-6. Exploit-DB 45072 --> C:\Program Files (x86)\SystemScheduler --> tasklist a couple times until Message.exe appears --> rename original & replace with shell --> open listener and wait --> PE to Admin
+7. Exploit-DB 45072 --> C:\Program Files (x86)\SystemScheduler --> tasklist a couple times until Message.exe appears --> rename original & replace with shell --> open listener and wait --> PE to Admin
