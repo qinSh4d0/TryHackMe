@@ -12,8 +12,8 @@
 
 Look around, cannot find entry point.
 
-Back to check if can write to share.
+Back to check if can write to share. Machine expired. Redeploy. New IP.
 
+![image](https://github.com/user-attachments/assets/0c80079c-9478-4b6e-8b9e-16c5d435bf72)
 
-![image](https://github.com/user-attachments/assets/bbc8fe4b-6a46-4a2b-801f-18d286acb5a1)
 
