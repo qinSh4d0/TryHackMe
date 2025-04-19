@@ -12,7 +12,7 @@
 ![image](https://github.com/user-attachments/assets/970c9ad5-a76d-41df-b74b-b2bbff0aa3ad)
 ![image](https://github.com/user-attachments/assets/46456be7-daaf-4292-8b93-491a654f6bbd)
 
-Get user.txt. Look around, cannot acannot find root.txt. 
+Get user.txt. Cannot access Administrator Desktop. 
 
 Linux commands work on one shell and another shell Windows commands. 
 
