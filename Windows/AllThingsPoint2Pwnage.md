@@ -24,6 +24,8 @@ Continue. Redeploy machine. Different IP. Check if share is writable.
 ![image](https://github.com/user-attachments/assets/d31c38c4-ffd2-401a-8f23-616a03e174c9)
 ![image](https://github.com/user-attachments/assets/d995aaab-3b9f-4586-842a-0a30e1031329)
 
+Unable to VNC into machine with the decoded password.
+
 Machine is x64-based PC. SeImpersonatePrivilege Enabled. User JuicyPotato.exe or PrintSpoofer64.exe for PrivEsc.
 
 Decody VNC password hash: upload vncpwd.exe to machine and run against ultravnc.ini Or on Kali run wine vncpwd.exe <Password-hash>
