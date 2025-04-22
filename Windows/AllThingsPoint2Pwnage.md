@@ -28,7 +28,7 @@ Unable to VNC into machine with the decoded password.
 
 Machine is x64-based PC. SeImpersonatePrivilege Enabled. User JuicyPotato.exe or PrintSpoofer64.exe for PrivEsc.
 
-Decody VNC password hash: upload vncpwd.exe to machine and run against ultravnc.ini Or on Kali run wine vncpwd.exe <Password-hash>
+Decode VNC password hash: upload vncpwd.exe to machine and run against ultravnc.ini Or on Kali run wine vncpwd.exe <Password-hash>
 
 
 Windows PHP reverse shell (stable)
