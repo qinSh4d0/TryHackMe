@@ -1,6 +1,6 @@
 
-This repository contains my practice records and notes as I prepare for the OSCP exam. 
+This repository doments my personal learning journey in penetration testing, including practice notes and screenshots.
 
-Some of the challenges are represented solely by screenshots that make sense to me during the learning process. 
+Some challenges are represented solely by screenshots that were meaningful during my hands-on practice.
 
 Feel free to browse through, just note these are part of my personal study and the content may not follow formal documentation or methodologies.
